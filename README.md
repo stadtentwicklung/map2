@@ -18,12 +18,15 @@ Des Weiteren sind Geometrien von thematisch wichtigen Projektgebieten mit [QGIS]
 ![Screenshot Workflow](https://raw.githubusercontent.com/stadtentwicklung/map2/master/img/workflow.PNG)
 
 :cinema: Schattierungen rendern
+
 Die Datei (1) Flächen inkl. Straßen mit Gleisen und die Datei (2) Gebäude liegen in Ps in getrennten Ebenen übereinander. Dadurch kann nur den Gebäuden bereits vor dem Rendern Schatten zugewiesen werden. Die Ebenen sind anschließend zusammengeführt und über die 3D-Funktion auf Grundlage der beiden Höhenbilder mit Schattierung gerendert. Die Workflow-Collage zeigt das Bild jeweils vor und nach den Renderprozessen, die insgesamt weniger als zwei Stunden dauerten.
 
 :art: Grafiken layouten
+
 Mit Illustrator sind die grafischen Elemente sowie Texte erzeugt, die das fertige Layout ergeben. Überzeigende Grafikelemente zu erstellen ist aufwendig aber notwendig, um die verschiedenen Symboliken in Bezug auf deren inhaltlichen Aussagen abzustimmen.
 
 :octocat: Karte publizieren
+
 Das Ergebnis ist mit [QGIS](https://github.com/qgis/QGIS) wieder georeferenziert für eine Bereitstellung als Webmap. Dafür bietet [QGIS](https://github.com/qgis/QGIS) die Funktion [GDAL2TILES](https://docs.qgis.org/2.14/en/docs/user_manual/plugins/plugins_gdaltools.html) an. Als Präsentationsplattform eigent sich u.a. [Leaflet](https://github.com/Leaflet/Leaflet), wobei das Bild dann zwingend im Koordinatensystem mit EPSG:3857 (WGS84) georeferenziert werden muss. Siehe hierzu die Problematik auf Stackoverflow--- (vgl. Abbildung).
 
 ![Gdla2Tiles with EPSG:25833 und EPSG:3857](https://raw.githubusercontent.com/stadtentwicklung/map2/master/img/stackoverflow.PNG)

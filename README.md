@@ -27,7 +27,7 @@ Mit Illustrator sind die grafischen Elemente sowie Texte erzeugt, die das fertig
 
 ### :octocat: Karte publizieren
 
-Das Ergebnis ist mit [QGIS](https://github.com/qgis/QGIS) wieder georeferenziert für eine Bereitstellung als Webmap. Dafür bietet [QGIS](https://github.com/qgis/QGIS) die Funktion [GDAL2TILES](https://docs.qgis.org/2.14/en/docs/user_manual/plugins/plugins_gdaltools.html) an. Als Präsentationsplattform eigent sich u.a. [Leaflet](https://github.com/Leaflet/Leaflet), wobei das Bild dann zwingend im Koordinatensystem mit EPSG:3857 (WGS84) georeferenziert werden muss. Siehe hierzu die Problematik auf Stackoverflow--- (vgl. Abbildung).
+Das Ergebnis ist mit [QGIS](https://github.com/qgis/QGIS) wieder georeferenziert für eine Bereitstellung als Webmap. Dafür bietet [QGIS](https://github.com/qgis/QGIS) die Funktion [GDAL2TILES](https://docs.qgis.org/2.14/en/docs/user_manual/plugins/plugins_gdaltools.html) an. Als Präsentationsplattform eigent sich u.a. [Leaflet](https://github.com/Leaflet/Leaflet), wobei das Bild dann zwingend im Koordinatensystem mit EPSG:3857 (WGS84) georeferenziert werden muss. Siehe hierzu die Problematik auf [Stackoverflow](https://stackoverflow.com/questions/69581969/gdal2tiles-with-epsg25833-of-a-raster-image-crashed-the-black-typo-in-the-tiles) (vgl. Abbildung).
 
 ![Gdla2Tiles with EPSG:25833 und EPSG:3857](https://raw.githubusercontent.com/stadtentwicklung/map2/master/img/stackoverflow.PNG)
 

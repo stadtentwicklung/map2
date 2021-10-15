@@ -29,3 +29,5 @@ Das Ergebnis ist mit QGIS--- wieder georeferenziert für eine Bereitstellung als
 ![Gdla2Tiles with EPSG:25833 und EPSG:3857](https://raw.githubusercontent.com/stadtentwicklung/map2/master/img/stackoverflow.PNG)
 
 Nach dem Speichern der Tiles als Webmap-Paket, wurde der HTML-, CSS- und JavaScript-Code individuell verfeinert z.B. mit der Funktion Standortermittlung. Alle Veränderungen lassen sich lokal über den Browser beurteilen. Das überarbeitete Paket ist in dieses Repository auf GitHub über die Kommandozeile hineingeladen (das Projekt besteht auf Grund der Tiles aus fast 500 Dateien, welche nicht mit Drag & Drop platziert werden können). Die aktivierte Funktion GitHub-Pages--- erlaubt jetzt, die Karte online über eine Domain--- aufzurufen.
+
+### :coffee::coffee::coffee: by [Stefan](https://github.com/stefanstoehr)
